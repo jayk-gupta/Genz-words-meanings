@@ -1,1 +1,1 @@
-# slang-generator
+# Common Genz Words meanings
