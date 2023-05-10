@@ -9,8 +9,8 @@ const img = document.querySelector(".img");
 
 const slangWords = {
   lit: "awesome or amazing",
-  "GOAT ": "Greatest Of All Time                      ",
-  "Thirsty ": " Desperate for attention or approval                ",
+  "GOAT ": "Greatest Of All Time  ",
+  "Thirsty ": " Desperate for attention or approval ",
   "Lit AF": "Extremely awesome or amazing",
   "Woke ": " Being aware of current social and political issues ",
   "Squad ": " Group of friends                                     ",
@@ -80,10 +80,6 @@ const slangWords = {
   lol: "laugh out loud",
 };
 
-// console.log(Object.keys(slangWords));
-
-
-
 const translateSlang = (input) => {
   Object.keys(slangWords).forEach((word) => {
     const regex = new RegExp(word, "ig");
@@ -109,8 +105,5 @@ form.addEventListener("submit", (event) => {
   }
 });
 
-
-
-//////////////////////////////////////////////////
 
 
